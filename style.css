@@ -1,39 +1,39 @@
 body{
     padding: 0; 
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif; /*använder denna font-family*/
-    background-color: lightskyblue; /*skapar bakgrundsfärg*/
-    display: flex; /*sätter displayen till flex*/
-    flex-direction: column; /*för att få det i kolumn i stället för rad*/
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: lightskyblue; 
+    display: flex; 
+    flex-direction: column; 
 }
-/*min header*/
+
 
 header {
-    background: url(vatten.jpg); /*min bakgrunds bild i headern*/
-    text-align: center; /*för att centrera texten i min header*/
+    background: url(vatten.jpg); 
+    text-align: center; 
 }
-/*min style på p i min header*/
+
 header p{
-    color: black;   /*färg*/
-    font-size: 60px;  /*storlek på texten*/
-    text-shadow: 1px 1px 2px red, 0 0 25px white, 0 0 5px white; /*skugga*/
+    color: black;   
+    font-size: 60px; 
+    text-shadow: 1px 1px 2px red, 0 0 25px white, 0 0 5px white; 
 }
 
 .content{
-    padding: 20px; /*skapar padding*/
-    background-color: darkcyan; /*skapar färgen darkcyan*/
+    padding: 20px; 
+    background-color: darkcyan; 
 }
 
 .info #rules{
-    border-bottom: 3px solid black; /*en border under texten*/  
-    text-align: center; /*för att få texten i mitten*/
+    border-bottom: 3px solid black;  
+    text-align: center; 
 }
 
 .rule{
-    background-color: white; /*skapar bakgrunden vit*/
-    padding: 20px; /*skapar padding*/
-    width: 500px; /*skapar bredd*/
-    position: absolute; /*för att kunna placera ut den där jag vill ha den med hjälp av nedan*/
-    left: 500px; /*500px från vänster*/
-    top: 350px;/* 350px från toppen*/
+    background-color: white; 
+    padding: 20px; 
+    width: 500px; 
+    position: absolute; 
+    left: 500px; 
+    top: 350px;
 }
